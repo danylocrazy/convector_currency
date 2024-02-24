@@ -43,4 +43,3 @@ btn.onclick = function () {
         document.getElementById('dollars').value = newres;
     }
 };
-
