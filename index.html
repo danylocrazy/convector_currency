@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Convector</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Convector currency ₴ => $</h1>
+        <p class="to">
+            <select id="vubor">
+                <option value="usd">USD</option>
+                <option value="eur">EUR</option>
+                <option value="pln">PLN</option>
+            </select>
+        </p>
+        <input id="hryvna" placeholder="Введите кол-во ₴" value="">
+        <input id="dollars" placeholder="Получите кол-во $">
+        
+        <button id="btn">result</button>
+    </div>
+
+    <div class="table">
+        <table>
+            <tr>
+                <td>USD</td><td id="usd"></td>
+            </tr>
+            <tr>
+                <td>EUR</td><td id="eur"></td>
+            </tr>
+            <tr>
+                <td>PLN</td><td id="pln"></td>
+            </tr>
+        </table>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    position: relativ;
+}
+
+.title {
+    color: white;
+    font-size: 18px;
+    font-style: initial;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#hryvna {
+    position: absolute;
+    top: calc(43%);
+    left: 40%;
+    transform: translateX(-50%);
+}
+
+.to {
+    color: white;
+    position: absolute;
+    top: calc(40.5%);
+    left: 48.1%;
+}
+
+#dollars {
+    position: absolute;
+    top: calc(43%);
+    left: 60%;
+    transform: translateX(-50%);
+}
+
+#btn {
+    position: absolute;
+    top: calc(50%);
+    left: 48%;
+}
+
+.table {
+    color: white;
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    background-color: white;
+}
+
+td {
+    color: black;
+    padding: 8px;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+td:nth-child(2) {
+    color:  black;
+    width: 100%; 
+}
+
+.td usd {
+    color: black;
+}
